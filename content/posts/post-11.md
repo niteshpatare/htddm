@@ -3,7 +3,7 @@ template: SinglePost
 title: Social Media Marketing
 status: Published
 date: 2018-05-25
-featuredImage: https://ucarecdn.com/1c21aea3-c88b-4f72-ba1b-a719e39b62a8/
+featuredImage: https://ucarecdn.com/80375c23-4714-4983-8073-f0f63fb43e9e/
 excerpt: Social Media Pages Management on social platforms, social media
   creatives and analytics.
 categories:
@@ -18,7 +18,7 @@ Assembling an in-house team for digital marketing would require hiring individua
 
 Outsourcing of digital marketing service can help your business to shift its focus from peripheral activities and set their priorities more clearly. We help you to nurture your business, fight with you and help to you to develop. We offer real time results with implementing digital marketing strategy so you can focus on your new business areas.
 
-![](https://ucarecdn.com/a7c3f433-e3e5-4001-9da9-24d3d3a0eeaf/)
+![](https://ucarecdn.com/36a24b10-112a-4bdb-8448-ab731cce0aa4/)
 
 ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
