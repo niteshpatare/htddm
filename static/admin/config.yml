@@ -137,9 +137,9 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/components.md'
-        label: 'Mastermind Components Page'
-        name: 'mastermind-components-page'
+      - file: 'content/pages/mastermind.md'
+        label: 'Mastermind Page'
+        name: 'mastermind-page'
         fields:
           - {
               label: Template,
@@ -147,7 +147,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: ComponentsPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
+          - { label: Slug, name: slug, widget: hidden, default: 'ComponentsPage' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
@@ -194,17 +194,17 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-                - file: 'content/pages/components2.md'
-        label: 'Entrepreneur Components2 Page'
-        name: 'entrepreneur-components-page'
+                - file: 'content/pages/entrepreneur.md'
+        label: 'Entrepreneur Page'
+        name: 'entrepreneur-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: Components2Page,
+              default: ComponentsPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
+          - { label: Slug, name: slug, widget: hidden, default: 'ComponentsPage' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }

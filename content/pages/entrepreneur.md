@@ -1,6 +1,6 @@
 ---
-template: ComponentsPage
-slug: components
+template: ComponentPage
+slug: entrepreneur
 title: Unstoppable Entrepreneur
 featuredImage: https://ucarecdn.com/a8184293-d361-485b-87bd-d4445ec8132b/
 subtitle: No Matter What Business You're In
