@@ -3,7 +3,7 @@ template: SinglePost
 title: Lead Driven Website
 status: Published
 date: 2018-03-27
-featuredImage: https://ucarecdn.com/bd8d4bd7-7c22-4301-8d2d-e865c43c118b/
+featuredImage: https://ucarecdn.com/5a334c3b-4913-43a2-b0f5-43d20ad0ad59/
 excerpt: Optimization of website for lead conversion and Site Navigation
   Analysis/Modification.
 categories:
@@ -20,7 +20,7 @@ It’s Digital Marketing program for startups and solo entrepreneurs, who want t
 
 Building business feels like trying to find a way to new destination without a map. There is so much to do that you barely have time to think as your mind is clouded by endless to-do list. We provide everything that you need to take your business idea live & turn it into a profitable and growing online business!
 
-![](https://ucarecdn.com/77e45a47-a7e3-45cd-88e9-2c0efa05feec/)
+![](https://ucarecdn.com/207a344b-da9a-48ca-aa2e-77ca04eec290/)
 
 ## We Will Help You To
 
