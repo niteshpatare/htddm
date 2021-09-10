@@ -271,10 +271,10 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Section 1, name: section1, widget: markdown }
-          - { label: Section 2, name: section2, widget: markdown }
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
+          - { label: Section 2, name: section2, widget: markdown }
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'
