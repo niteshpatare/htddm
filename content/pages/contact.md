@@ -7,7 +7,10 @@ subtitle: "## Build your brand an online business space!"
 address: Pune - 412105, INDIA
 phone: "+## ##########"
 email: hi@howtododigitalmarketing.com
-locations: []
+locations:
+  - mapLink: https://goo.gl/maps/3XBVt4QsoonSq4jw8
+    lat: "18.52265034182967"
+    lng: " 73.74245891872106"
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In. HowToDoDigitalMarketing.com
