@@ -29,11 +29,10 @@ section1: >-
 
 
   You get the best results when you follow rock solid business strategy and guidance. In a meaningful way, this package is designed to actually shift your business growth to the higher level. Shape your marketing with us!
-section2: >-
-  ## Inspired by.
-
-
-  <iframe width="1180" height="664" src="https://www.youtube.com/embed/h6fcK_fRYaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+section2: |-
+  ```
+  > Stop Waiting. Start Building. No Matter What Business You're In. Try now.
+  ```
 video: https://ucarecdn.com/64dd18d9-87fa-4329-a2fd-94328b832c1f/
 videoPoster: https://ucarecdn.com/a20af84c-bea4-4160-8b21-f147cba694d6/
 videoTitle: Our hobby to keep us running...
