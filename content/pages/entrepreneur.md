@@ -34,9 +34,6 @@ section2: >-
 
 
   <iframe width="1180" height="664" src="https://www.youtube.com/embed/h6fcK_fRYaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-video: https://ucarecdn.com/64dd18d9-87fa-4329-a2fd-94328b832c1f/
-videoPoster: https://ucarecdn.com/a20af84c-bea4-4160-8b21-f147cba694d6/
-videoTitle: Our hobby to keep us running...
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
@@ -46,8 +43,8 @@ accordion:
     title: Taciti lorem
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
-gallery: []
 meta:
-  description: This is a meta description.
-  title: Components Page
+  description: Build Your Business With Digital Marketing Tactics - No Matter What
+    Business You're In - HowToDoDigitalMarketing.com
+  title: Try How To Do Digital Marketing [dot] COM - Entrepreneur Page
 ---
