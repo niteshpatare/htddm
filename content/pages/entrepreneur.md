@@ -1,5 +1,5 @@
 ---
-template: ComponentPage
+template: EntrepreneurPage
 slug: entrepreneur
 title: Unstoppable Entrepreneur
 featuredImage: https://ucarecdn.com/a8184293-d361-485b-87bd-d4445ec8132b/
@@ -44,7 +44,8 @@ accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
 meta:
-  description: Build Your Business With Digital Marketing Tactics - No Matter What
+  description:
+    Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In - HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM - Entrepreneur Page
 ---
