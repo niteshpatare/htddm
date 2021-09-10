@@ -10,7 +10,7 @@ import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const ComponentsPageTemplate = ({
+export const MastermindPageTemplate = ({
   title,
   subtitle,
   featuredImage,
@@ -70,7 +70,7 @@ export const ComponentsPageTemplate = ({
   </main>
 )
 
-const ComponentsPage = ({ data: { page } }) => (
+const MastermindPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
@@ -79,10 +79,10 @@ const ComponentsPage = ({ data: { page } }) => (
   </Layout>
 )
 
-export default ComponentsPage
+export default MastermindPage
 
 export const pageQuery = graphql`
-  query ComponentsPage($id: String!) {
+  query MastermindPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...Gallery
