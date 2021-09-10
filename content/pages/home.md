@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: Build Your Business
-featuredImage: https://ucarecdn.com/f06d0b04-57cc-431e-a6cb-6ccf4d760a05/-/preview/-/grayscale/
+featuredImage: https://ucarecdn.com/36df3930-7901-487f-80ec-54ba54edc8bb/
 subtitle: No Matter What Business You're In
 accordion:
   - title: Invest In Digital Marketing Tactics
@@ -29,6 +29,6 @@ Build your brand on online business space!
 
 # Unlimited Benefits. Unlimited Fun
 
-![](https://ucarecdn.com/0337f51b-7790-4e7c-b432-15fa6d0f5e8d/)
+![](https://ucarecdn.com/3c754989-0545-4b59-a7c1-ca37c9368f12/)
 
 # Stop Waiting. Start Building.
