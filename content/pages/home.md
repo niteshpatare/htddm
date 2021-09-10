@@ -41,6 +41,11 @@ section2: >-
 
 
   Create, Build, Grow & Achieve.
+accordion:
+  - title: Invest In Digital Marketing Tactics
+    content: Content
+  - title: Hit Your Quarter Goals
+    content: Content
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In - HowToDoDigitalMarketing.com
