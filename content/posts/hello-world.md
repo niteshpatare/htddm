@@ -6,7 +6,7 @@ date: 2018-03-27
 featuredImage: https://ucarecdn.com/dbb3e777-041b-40c7-b240-3ed096eb363d/
 excerpt: Creative content creation for blog, social ads and landing pages.
 categories:
-  - category: News
+  - category: Mastermind 360 Digital Marketing
 meta:
   canonicalLink: ""
   description: test meta description
