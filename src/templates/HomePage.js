@@ -20,6 +20,13 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
         <Content source={body} />
       </div>
     </section>
+
+    <section className="section">
+      <div className="container">
+        <Accordion items={accordion} />
+      </div>
+    </section>
+    
   </main>
 )
 
