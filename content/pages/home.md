@@ -4,7 +4,7 @@ slug: ""
 title: How To Do Digital Maraketing
 featuredImage: https://ucarecdn.com/4412a3ce-f9ad-46d9-83d4-3d3f027156f4/
 subtitle: "### Build your brand on online business space!"
-section1: |-2
+section1: >-
    
 
   # Discover What All The Buzz Is About!
@@ -22,7 +22,7 @@ section1: |-2
 video: https://ucarecdn.com/6f1f0bca-6d10-415a-b8f5-40c5535fc42c/
 videoPoster: https://ucarecdn.com/e686d6d5-7e3f-4eab-afa3-4f455414575a/
 videoTitle: Our Experiments ...
-section2: >-
+section2: |-
   ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
 
@@ -58,6 +58,5 @@ meta:
     Business You're In - HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM
 ---
-
 
 > Stop Waiting. Start Building. No Matter What Business You're In. Try now.
