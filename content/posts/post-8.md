@@ -3,7 +3,7 @@ template: SinglePost
 title: Reporting And Support
 status: Published
 date: 2018-05-25
-featuredImage: https://ucarecdn.com/9401ab84-5b61-40c5-9f34-706227c7bbf9/
+featuredImage: https://ucarecdn.com/202f9c23-676b-4eb1-b46a-68ed977b0e2c/
 excerpt: Monthly Performance & Traffic Report with growth marketing plan.
   Working on your account with dedicated account manager.
 categories:
@@ -18,7 +18,7 @@ Assembling an in-house team for digital marketing would require hiring individua
 
 Outsourcing of digital marketing service can help your business to shift its focus from peripheral activities and set their priorities more clearly. We help you to nurture your business, fight with you and help to you to develop. We offer real time results with implementing digital marketing strategy so you can focus on your new business areas.
 
-![](https://ucarecdn.com/e17cf305-bce3-47b7-85b8-1a2af4eb6c89/)
+![](https://ucarecdn.com/c1520028-ce01-4c43-9fe6-351a673f8df1/)
 
 ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
