@@ -3,7 +3,7 @@ template: SinglePost
 title: Paid Search / Social Advertising
 status: Published
 date: 2018-03-28
-featuredImage: https://ucarecdn.com/cc3e70aa-e6af-4383-a57d-77c7e63162a0/
+featuredImage: https://ucarecdn.com/e79079b3-093b-4c5a-a1be-3a262d5889b5/
 excerpt: Lead nurturing campaigns with creative ad copy and generate more revenue.
 categories:
   - category: Mastermind 360 Digital Marketing
@@ -17,7 +17,7 @@ Assembling an in-house team for digital marketing would require hiring individua
 
 Outsourcing of digital marketing service can help your business to shift its focus from peripheral activities and set their priorities more clearly. We help you to nurture your business, fight with you and help to you to develop. We offer real time results with implementing digital marketing strategy so you can focus on your new business areas.
 
-![](https://ucarecdn.com/00a491c7-c0ff-44e2-83f9-0847a69935de/)
+![](https://ucarecdn.com/9f7d5665-c0f4-4eb4-958a-c473d3e2ebf2/)
 
 ## The Benefits Of Using Our Pre-Build Marketing Packages:
 

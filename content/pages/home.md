@@ -20,17 +20,15 @@ meta:
     Business You're In - HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing
 ---
-## Discover What All The Buzz Is About!
+# Discover What All The Buzz Is About!
 
 Build your brand on online business space!
 
 * Unstoppable Entrepreneur
 * 360 Mastermind Digital Marketing Consulting
 
-## Unlimited Benefits. Unlimited Fun
+# Unlimited Benefits. Unlimited Fun
 
 ![](https://ucarecdn.com/0337f51b-7790-4e7c-b432-15fa6d0f5e8d/)
 
-## Stop Waiting. Start Building.
-
-## We Love New Friends!
+# Stop Waiting. Start Building.
