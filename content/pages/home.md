@@ -24,5 +24,5 @@ meta:
   title: Try How To Do Digital Marketing [dot] COM
 ---
 ```
-
+> Stop Waiting. Start Building. No Matter What Business You're In. Try now.
 ```
