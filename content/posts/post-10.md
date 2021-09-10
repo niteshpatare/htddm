@@ -3,7 +3,7 @@ template: SinglePost
 title: Paid Search / Social Advertising
 status: Published
 date: 2018-03-28
-featuredImage: https://ucarecdn.com/69bcae44-f555-4b56-b08e-bd0f2013654a/-/crop/1634x1690/0,434/-/preview/
+featuredImage: https://ucarecdn.com/cc3e70aa-e6af-4383-a57d-77c7e63162a0/
 excerpt: Lead nurturing campaigns with creative ad copy and generate more revenue.
 categories:
   - category: Mastermind 360 Digital Marketing
