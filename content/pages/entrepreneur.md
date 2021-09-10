@@ -5,7 +5,7 @@ title: Unstoppable Entrepreneur
 featuredImage: https://ucarecdn.com/a8184293-d361-485b-87bd-d4445ec8132b/
 subtitle: "## Stop Waiting. Start Building."
 section1: >-
-  # It Includes:
+  ## So What’s Included?
 
 
   It’s Digital Marketing program for startups and solo entrepreneurs, who want to earn seven-figure income. When your business targets go off track, you ruined your peace of mind and end up with so much stress. Doing all the business task all alone is the most common mistake all entrepreneur do. Building business feels like trying to find a way to new destination without a map. There is so much to do that you barely have time to think as your mind is clouded by endless to-do list. We provide everything that you need to take your business idea live & turn it into a profitable and growing online business!
