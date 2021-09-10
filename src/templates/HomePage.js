@@ -10,7 +10,15 @@ import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, section1, video, videoPoster, videoTitle, section2, accordion, body, gallery }) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, section1,
+  section2,
+  video,
+  videoPoster,
+  videoTitle,
+  accordion,
+  body,
+  gallery
+ }) => (
   <main className="Home">
     <PageHeader
       large
@@ -44,6 +52,11 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, section1, vid
       </div>
     </section>
 */}
+    <section className="section">
+      <div className="container">
+        <Content source={body} />
+      </div>
+    </section>
 
     <section className="section">
       <div className="container">
@@ -51,11 +64,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, section1, vid
       </div>
     </section>
 
-    <section className="section">
-      <div className="container">
-        <Content source={body} />
-      </div>
-    </section>
+
 
 
     
