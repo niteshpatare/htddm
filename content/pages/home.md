@@ -17,6 +17,9 @@ section1: |-
   * How to Avoid Entrepreneurial Burnout.
   * Keeping up with the competition.
   * Helps in cutting down the operational costs.
+video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
+videoPoster: https://ucarecdn.com/16e161f1-33fd-43e1-a5df-b643848dd54a/
+videoTitle: What we do in our free time.
 section2: >-
   ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
@@ -36,10 +39,16 @@ section2: >-
 
 
   Create, Build, Grow & Achieve.
-video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
-videoPoster: https://ucarecdn.com/16e161f1-33fd-43e1-a5df-b643848dd54a/
+accordion:
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
 gallery: []
-videoTitle: What we do in our free time.
 meta:
   description:
     Build Your Business With Digital Marketing Tactics - No Matter What
