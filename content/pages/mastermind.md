@@ -5,7 +5,7 @@ title: Mastermind 360 Digital Marketing
 featuredImage: https://ucarecdn.com/a8184293-d361-485b-87bd-d4445ec8132b/
 subtitle: "## Stop Waiting. Start Building."
 section1: >-
-  # It Includes:
+  ## So What’s Included?
 
 
   Assembling an in-house team for digital marketing would require hiring individuals for each of digital marketing roles. That means five figure new salaries and Infrastructure cost in your budget. Save the cost and work with our digital marketing expert team to guide and consult your business growth.
