@@ -3,37 +3,33 @@ template: EntrepreneurPage
 slug: entrepreneur
 title: Unstoppable Entrepreneur
 featuredImage: https://ucarecdn.com/a8184293-d361-485b-87bd-d4445ec8132b/
-subtitle: No Matter What Business You're In
+subtitle: "## Stop Waiting. Start Building."
 section1: >-
   # It Includes:
 
 
-  Assembling an in-house team for digital marketing would require hiring individuals for each of digital marketing roles. That means five figure new salaries and Infrastructure cost in your budget. Save the cost and work with our digital marketing expert team to guide and consult your business growth.
+  It’s Digital Marketing program for startups and solo entrepreneurs, who want to earn seven-figure income. When your business targets go off track, you ruined your peace of mind and end up with so much stress. Doing all the business task all alone is the most common mistake all entrepreneur do. Building business feels like trying to find a way to new destination without a map. There is so much to do that you barely have time to think as your mind is clouded by endless to-do list. We provide everything that you need to take your business idea live & turn it into a profitable and growing online business!
 
 
-  Outsourcing of digital marketing service can help your business to shift its focus from peripheral activities and set their priorities more clearly. We help you to nurture your business, fight with you and help to you to develop. We offer real time results with implementing digital marketing strategy so you can focus on your new business areas.
+  ## We Will Help You To
 
 
-  ## The Benefits Of Using Our Pre-Build Marketing Packages:
+  * Build lead driven website (if you already have on redesign of website).
 
+  * The Different Ways to Monetize Your Brand.
 
-  * All of the marketing done at one place.
+  * How to Avoid Entrepreneurial Burnout.
 
-  * No Need to hire Digital Marketing Team, no need of infrastructure ultimately brings your operational cost down.
+  * Keeping up with the competition.
 
-  * Speed up the delivery time.
-
-  * Bring together experts in all fields of marketing for quality.
-
-  * Help increase the outcome for higher results.
-
-
-  You get the best results when you follow rock solid business strategy and guidance. In a meaningful way, this package is designed to actually shift your business growth to the higher level. Shape your marketing with us!
-section2: >-
-  ## Inspired by.
-
-
-  <iframe width="1180" height="664" src="https://www.youtube.com/embed/h6fcK_fRYaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  * Helps in cutting down the operational costs.
+section2: |-
+  ```
+  > Stop Waiting. Start Building. No Matter What Business You're In. Try now.
+  ```
+video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
+videoPoster: https://ucarecdn.com/8dd2dd8c-d24a-4b30-bfd7-4afc77b20fc8/
+videoTitle: Hidden by code
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
@@ -45,8 +41,7 @@ accordion:
     title: Taciti lorem
 gallery: []
 meta:
-  description:
-    Build Your Business With Digital Marketing Tactics - No Matter What
+  description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In - HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM - Entrepreneur Page
 ---
