@@ -3,7 +3,7 @@ template: MastermindPage
 slug: mastermind
 title: Mastermind 360 Digital Marketing
 featuredImage: https://ucarecdn.com/a8184293-d361-485b-87bd-d4445ec8132b/
-subtitle: No Matter What Business You're In
+subtitle: "## Stop Waiting. Start Building."
 section1: >-
   # It Includes:
 
