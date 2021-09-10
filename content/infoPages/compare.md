@@ -2,11 +2,9 @@
 template: DefaultPage
 slug: compare
 title: Compare different plans
-featuredImage: >-
-  https://ucarecdn.com/0a485165-65c4-42ee-bf35-b93fbaf0fd2e/-/preview/-/rotate/270/
+featuredImage: https://ucarecdn.com/27f7658c-8573-417a-a0df-cf34b5f6ab6b/
 meta:
-  description:
-    Build Your Business With Digital Marketing Tactics - No Matter What
+  description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In. HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM - Compare Plans
 ---
