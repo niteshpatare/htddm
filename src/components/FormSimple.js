@@ -40,11 +40,11 @@ export default ({
         required
       >
         <option disabled hidden>
-          Type of Enquiry
+          Type of Plan to more about
         </option>
-        <option>Need to know more</option>
-        <option>Found a bug</option>
-        <option>Want to say hello</option>
+        <option>Unstoppable ENTREPRENEUR</option>
+        <option>Mastermind 360 DIGITAL MARKETING</option>
+        <option>PREMIUM DIGITAL MARKETING</option>
       </select>
     </label>
     <label className='Form--Label'>
