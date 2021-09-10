@@ -43,6 +43,7 @@ accordion:
     title: Taciti lorem
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
+gallery: []
 meta:
   description:
     Build Your Business With Digital Marketing Tactics - No Matter What
