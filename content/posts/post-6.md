@@ -3,7 +3,7 @@ template: SinglePost
 title: Email Marketing
 status: Published
 date: 2018-05-25
-featuredImage: https://ucarecdn.com/ee450807-c6bf-49d2-94bb-563a17cedc73/
+featuredImage: https://ucarecdn.com/82e9a194-e651-486f-b8da-9b75fafe4a3f/
 excerpt: Setting up Email Campaign, design email templates and analysis.
 categories:
   - category: Mastermind 360 Digital Marketing
@@ -17,7 +17,7 @@ Assembling an in-house team for digital marketing would require hiring individua
 
 Outsourcing of digital marketing service can help your business to shift its focus from peripheral activities and set their priorities more clearly. We help you to nurture your business, fight with you and help to you to develop. We offer real time results with implementing digital marketing strategy so you can focus on your new business areas.
 
-![](https://ucarecdn.com/b124e7e0-cd80-4fca-9d92-d8c9c3327c54/)
+![](https://ucarecdn.com/bdd0ea83-2257-4c05-83c9-a61bc640f1bb/)
 
 ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
