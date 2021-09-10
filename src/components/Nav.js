@@ -108,7 +108,9 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/components/">Compare</NavLink>
+            <NavLink to="/components2/">Unstoppable Plan</NavLink>
+            <NavLink to="/components/">Mastermind Plan</NavLink>
+            <NavLink to="/compare/">Compare</NavLink>
             <NavLink to="/default/">Default</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
             <NavLink to="http://blog.howtododigitalmarketing.com/">Blog</NavLink>
