@@ -1,12 +1,10 @@
 ---
 template: HomePage
-slug: ""
+slug: ''
 title: How To Do Digital Maraketing
 featuredImage: https://ucarecdn.com/4412a3ce-f9ad-46d9-83d4-3d3f027156f4/
-subtitle: "### Build your brand on online business space!"
+subtitle: '### Build your brand on online business space!'
 section1: >-
-   
-
   # Discover What All The Buzz Is About!
 
   * Unstoppable Entrepreneur.
@@ -54,7 +52,8 @@ gallery:
   - image: https://ucarecdn.com/316db6d7-27c1-4b73-abf2-dc9aa0dbe139/
     alt: Mine
 meta:
-  description: Build Your Business With Digital Marketing Tactics - No Matter What
+  description:
+    Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In - HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM
 ---
