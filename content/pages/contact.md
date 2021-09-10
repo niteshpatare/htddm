@@ -1,16 +1,13 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: example@example.com
-locations:
-  - lat: '-27.9654732'
-    lng: '153.2432449'
-    mapLink: ''
+title: Contact Us
+featuredImage: https://ucarecdn.com/4ca21514-1a90-4ecd-b4ef-1c8e7d7f88ca/
+subtitle: "## Build your brand an online business space!"
+address: Pune - 412105, INDIA
+phone: "+## ##########"
+email: hi@howtododigitalmarketing.com
+locations: []
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In. HowToDoDigitalMarketing.com
