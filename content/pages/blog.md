@@ -11,5 +11,5 @@ subtitle: Are you aspirant entrepreneur who is trying to build his empire? Are
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In. HowToDoDigitalMarketing.com
-  title: Try How To Do Digital Marketing
+  title: Try How To Do Digital Marketing [dot] COM - Plans
 ---
