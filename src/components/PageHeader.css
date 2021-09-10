@@ -12,14 +12,9 @@
   padding: 20rem 0;
 }
 
-.PageHeader--Title {
-  font-size: 6rem;
-  margin-bottom: 0;
-}
-
-.PageHeader--Subtitle {
-  font-weight: 400;
-  font-size: 1.8rem;
+.PageHeader--Title, .PageHeader--Subtitle {
+  color: var(--primary);
+  font-weight: 600;
 }
 
 .PageHeader .container {
@@ -34,3 +29,4 @@
     padding: 12.5rem 0;
   }
 }
+
