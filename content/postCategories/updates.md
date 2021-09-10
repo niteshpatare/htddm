@@ -10,5 +10,5 @@ subtitle: Assembling an in-house team for digital marketing would require hiring
   clearly. We help you to nurture your business, fight with you and help to you
   to develop. We offer real time results with implementing digital marketing
   strategy so you can focus on your new business areas.
-featuredImage: https://ucarecdn.com/253940fc-2672-40fa-b7de-f13752c4df77/-/preview/-/grayscale/
+featuredImage: https://ucarecdn.com/4c2986ec-2e55-462b-aae5-e86a1182b724/
 ---
