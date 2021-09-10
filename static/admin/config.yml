@@ -194,7 +194,7 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-                - file: 'content/pages/entrepreneur.md'
+        - file: 'content/pages/entrepreneur.md'
         label: 'Entrepreneur Page'
         name: 'entrepreneur-page'
         fields:
