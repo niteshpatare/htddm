@@ -1,8 +1,7 @@
-siteTitle: Yellow Cake
-siteUrl: 'https://yellowcake.netlify.com'
-siteDescription: >-
-  A starter project for creating lightning-fast websites with Gatsby v2 Netlify
-  CMS v2 and Uploadcare media library.
+siteTitle: How To Do Digital Marketing.com
+siteUrl: https://howtododigitalmarketing.com
+siteDescription: A starter project for creating lightning-fast websites with
+  Gatsby v2 Netlify CMS v2 and Uploadcare media library.
 socialMediaCard:
-  image: 'https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/'
-googleTrackingId: 'UA-133175780-1'
+  image: https://ucarecdn.com/e80828e8-f78e-4a5e-94fd-9ac8e347a11e/
+googleTrackingId: UA-133175780-1
