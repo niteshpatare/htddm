@@ -1,7 +1,7 @@
 ---
 template: DefaultPage
 slug: compare
-title: Compare plans now. Stop Waiting. Start Building.
+title: Compare Plans Now. Stop Waiting. Start Building.
 featuredImage: https://ucarecdn.com/27f7658c-8573-417a-a0df-cf34b5f6ab6b/
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
