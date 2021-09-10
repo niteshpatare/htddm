@@ -3,7 +3,7 @@ template: SinglePost
 title: Content Creation And Marketing
 status: Published
 date: 2018-03-27
-featuredImage: https://ucarecdn.com/dbb3e777-041b-40c7-b240-3ed096eb363d/
+featuredImage: https://ucarecdn.com/406bd297-1861-4896-bb74-83485d6d3cb6/
 excerpt: Creative content creation for blog, social ads and landing pages.
 categories:
   - category: Mastermind 360 Digital Marketing
@@ -19,7 +19,7 @@ Assembling an in-house team for digital marketing would require hiring individua
 
 Outsourcing of digital marketing service can help your business to shift its focus from peripheral activities and set their priorities more clearly. We help you to nurture your business, fight with you and help to you to develop. We offer real time results with implementing digital marketing strategy so you can focus on your new business areas.
 
-![Test Image](https://ucarecdn.com/77e45a47-a7e3-45cd-88e9-2c0efa05feec/)
+![Test Image](https://ucarecdn.com/076aafe0-5013-49ca-854a-ffb9e9bc8c28/)
 
 ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
