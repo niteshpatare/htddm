@@ -3,7 +3,7 @@ template: SinglePost
 title: Tracking Tools Set Up
 status: Published
 date: 2018-03-27
-featuredImage: https://ucarecdn.com/08c9dd4b-8490-42bf-b990-5e18c8ca0225/
+featuredImage: https://ucarecdn.com/68142623-f1aa-4baa-98f9-f143efcc0046/
 excerpt: All the tracking tools set up for Goal Conversion & Track in Analytics.
 categories:
   - category: Unstoppable Entrepreneur
@@ -19,7 +19,7 @@ Assembling an in-house team for digital marketing would require hiring individua
 
 Outsourcing of digital marketing service can help your business to shift its focus from peripheral activities and set their priorities more clearly. We help you to nurture your business, fight with you and help to you to develop. We offer real time results with implementing digital marketing strategy so you can focus on your new business areas.
 
-![](https://ucarecdn.com/6fc5f2ba-985a-4ab6-89ee-e2e4b7efd1a9/)
+![](https://ucarecdn.com/dd63c69b-12fc-4dc4-b38c-e01b5ed6b63c/)
 
 ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
