@@ -4,15 +4,14 @@ import './Footer.css'
 export default () => (
   <div>
     <h2 className="taCenter">
-      Follow us{' '}
-      <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
+      Follow us{' @KayakCM'}
+      <a href="https://instagram.com/kayakcm/">@kayakcm</a> We Love New Friends!
     </h2>
     <br />
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://thriveweb.com.au/">Thrive</a>.
+          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' @KayakCM'}
         </span>
       </div>
     </footer>
