@@ -1,30 +1,35 @@
 ---
 template: HomePage
 slug: ""
-title: Yellowcake
+title: Build Your Business
 featuredImage: https://ucarecdn.com/f06d0b04-57cc-431e-a6cb-6ccf4d760a05/-/preview/-/grayscale/
-subtitle: " Welcome to the ultimate Gatsby and Netlify starter project."
+subtitle: No Matter What Business You're In
+accordion:
+  - title: Invest In Digital Marketing Tactics
+    content: Invest into SEO and social media to bring consistent growth to your biz!
+  - title: Hit Your Quarter Goals
+    content: Receive high-end business strategy and support to plan each quarter to
+      hit your goals!
+  - title: Lead Driven Website
+    content: Design a brand new website or pivot an existing website to bring new
+      leads effortlessly!
+  - title: Reduce Operational Cost
+    content: No need to hire highly skilled Digital Marketing team. Simply outsource!
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
 ---
+## Discover What All The Buzz Is About!
 
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightning fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+Build your brand on online business space!
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+* Unstoppable Entrepreneur
+* 360 Mastermind Digital Marketing Consulting
 
-# Features
+## Unlimited Benefits. Unlimited Fun
 
-- **[Gatsby](https://gatsbyjs.org)** static site generator
-- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-- Dynamic menus and forms
-- **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-- Fully responsive layout for mobile and widescreen browsing
-- Blog searching and paging functionality
-- Seamless image and content sliders
+![](https://ucarecdn.com/0337f51b-7790-4e7c-b432-15fa6d0f5e8d/)
 
-## Get started
+## Stop Waiting. Start Building.
 
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+## We Love New Friends!
