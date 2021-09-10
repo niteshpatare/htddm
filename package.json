@@ -1,7 +1,7 @@
 {
-  "name": "yellowcake",
-  "HomePage": "https://yellowcake.netlify.com/",
-  "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
+  "name": "howtododigitalmarketing.com",
+  "HomePage": "https://howtododigitalmarketing.com/",
+  "description": "An opinionated project for Digital Marketing",
   "version": "2.0.0",
   "repository": {
     "type": "git",
