@@ -75,7 +75,7 @@ const MastermindPage = ({ data: { page } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ComponentsPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <MastermindPageTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
 
