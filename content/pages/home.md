@@ -1,12 +1,51 @@
 ---
 template: HomePage
-slug: ''
-title: How To Do Digital Maraketing.
-featuredImage: https://ucarecdn.com/36df3930-7901-487f-80ec-54ba54edc8bb/
-subtitle: '## Build your brand on online business space!'
+slug: ""
+title: How To Do Digital Maraketing
+featuredImage: https://ucarecdn.com/4412a3ce-f9ad-46d9-83d4-3d3f027156f4/
+subtitle: "### Build your brand on online business space!"
+section1: |-2
+   
+
+  # Discover What All The Buzz Is About!
+
+  * Unstoppable Entrepreneur.
+  * 360 Mastermind Digital Marketing Consulting.
+
+  # We Will Help You To
+
+  * Build lead driven website (if you already have on redesign of website). 
+  * The Different Ways to Monetize Your Brand.
+  * How to Avoid Entrepreneurial Burnout.
+  * Keeping up with the competition.
+  * Helps in cutting down the operational costs.
+video: https://ucarecdn.com/6f1f0bca-6d10-415a-b8f5-40c5535fc42c/
+videoPoster: https://ucarecdn.com/e686d6d5-7e3f-4eab-afa3-4f455414575a/
+videoTitle: Our Experiments ...
+section2: >-
+  ## The Benefits Of Using Our Pre-Build Marketing Packages:
+
+
+  * All of the marketing done at one place.
+
+  * No Need to hire Digital Marketing Team, no need of infrastructure ultimately brings your operational cost down.
+
+  * Speed up the delivery time.
+
+  * Bring together experts in all fields of marketing for quality.
+
+  * Help increase the outcome for higher results.
+
+
+  ## Unlimited Benefits. Unlimited Fun
+
+
+  Create, Build, Grow & Achieve.
 meta:
-  description:
-    Build Your Business With Digital Marketing Tactics - No Matter What
+  description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In - HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM
 ---
+
+
+> Stop Waiting. Start Building. No Matter What Business You're In. Try now.
