@@ -111,7 +111,7 @@ export class Navigation extends Component {
             <NavLink to="/entrepreneur/">Unstoppable Plan</NavLink>
             <NavLink to="/mastermind/">Mastermind Plan</NavLink>
             <NavLink to="/compare/">Compare</NavLink>
-            <NavLink to="/default/">Default</NavLink>
+            {/*<NavLink to="/default/">Default</NavLink>*/}
             <NavLink to="/contact/">Contact</NavLink>
             <NavLink to="http://blog.howtododigitalmarketing.com/">Blog</NavLink>
           </div>
