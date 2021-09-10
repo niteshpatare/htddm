@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Monthly Performace Reporting
+title: Monthly Performance Reporting
 status: Published
 date: 2018-03-28
 featuredImage: https://ucarecdn.com/f9413ace-7371-4db5-8b1d-58868923859c/
