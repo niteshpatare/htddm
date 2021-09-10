@@ -12,8 +12,9 @@ locations:
     lng: '153.2432449'
     mapLink: ''
 meta:
-  description: This is a meta description.
-  title: Contact Page
+  description: Build Your Business With Digital Marketing Tactics - No Matter What
+    Business You're In. HowToDoDigitalMarketing.com
+  title: Try How To Do Digital Marketing [dot] COM - Contact Page
 ---
 
 # Example contact form
