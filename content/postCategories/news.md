@@ -1,6 +1,6 @@
 ---
 template: BlogIndex
-title: What Is Unstoppable Entrepreneur?
+title: Unstoppable Entrepreneur
 subtitle: It’s Digital Marketing program for startups and solo entrepreneurs,
   who want to earn seven-figure income. When your business targets go off track,
   you ruined your peace of mind and end up with so much stress. Doing all the
