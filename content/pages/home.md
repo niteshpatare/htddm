@@ -46,6 +46,13 @@ accordion:
     content: Content
   - title: Hit Your Quarter Goals
     content: Content
+gallery:
+  - image: https://ucarecdn.com/f11fc407-219e-4874-b938-01d01d7544c7/
+    alt: Excavate
+  - alt: Refine
+    image: https://ucarecdn.com/4fe4ece3-a066-49cb-98aa-68db31847244/
+  - image: https://ucarecdn.com/316db6d7-27c1-4b73-abf2-dc9aa0dbe139/
+    alt: Mine
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In - HowToDoDigitalMarketing.com
