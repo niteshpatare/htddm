@@ -16,8 +16,9 @@ accordion:
   - title: Reduce Operational Cost
     content: No need to hire highly skilled Digital Marketing team. Simply outsource!
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: Build Your Business With Digital Marketing Tactics - No Matter What
+    Business You're In - HowToDoDigitalMarketing.com
+  title: Try How To Do Digital Marketing
 ---
 ## Discover What All The Buzz Is About!
 
