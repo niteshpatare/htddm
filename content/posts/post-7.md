@@ -6,7 +6,7 @@ date: 2018-03-27
 featuredImage: https://ucarecdn.com/08c9dd4b-8490-42bf-b990-5e18c8ca0225/
 excerpt: All the tracking tools set up for Goal Conversion & Track in Analytics.
 categories:
-  - category: Mastermind 360 Digital Marketing
+  - category: Unstoppable Entrepreneur
 meta:
   canonicalLink: ""
   description: ""
