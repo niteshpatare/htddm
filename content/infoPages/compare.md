@@ -1,13 +1,16 @@
 ---
 template: DefaultPage
 slug: compare
-title: Compare Plans Now. Stop Waiting. Start Building.
+title: Compare Plans Now. Stop Waiting. Start Building. Accomplish More While
+  Doing Less
 featuredImage: https://ucarecdn.com/27f7658c-8573-417a-a0df-cf34b5f6ab6b/
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In. HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM - Compare Plans
 ---
+Outsource our incredible digital marketing team; we will help to create a massive impact. Our team is working around the clock to have the marketing systems in place in your business to support growth of business. Allow yourself to make more while working less. You are just one-step away!
+
 # UNSTOPPABLE ENTREPRENEUR
 
 * Basic Digital Marketing Pack
@@ -46,7 +49,7 @@ meta:
 *  Ad Spent Upto 90,000 (Excluded)
 *  Minimum Engagement 6 Months
 
-# PREMIUM DIGITAL MARKETING 
+# PREMIUM DIGITAL MARKETING
 
 * Everything in Mastermind 360 Digital Marketing +
 *  Keyword Relevancy Evaluation
