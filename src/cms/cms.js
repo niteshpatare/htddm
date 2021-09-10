@@ -3,7 +3,8 @@ import CMS from 'netlify-cms-app'
 import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
-import { ComponentsPageTemplate } from '../templates/ComponentsPage'
+import { EntrepreneurPageTemplate } from '../templates/EntrepreneurPage'
+import { MastermindPageTemplate } from '../templates/MastermindPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
@@ -27,10 +28,10 @@ CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('entrepreneur-page', ({ entry }) => (
-  <ComponentsPageTemplate {...entry.toJS().data} />
+  <MastermindPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('mastermind-page', ({ entry }) => (
-  <ComponentsPageTemplate {...entry.toJS().data} />
+  <EntrepreneurPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
