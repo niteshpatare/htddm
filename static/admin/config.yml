@@ -138,8 +138,8 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
       - file: 'content/pages/components.md'
-        label: 'Components Page'
-        name: 'components-page'
+        label: 'Mastermind Components Page'
+        name: 'mastermind-components-page'
         fields:
           - {
               label: Template,
@@ -195,8 +195,8 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
                 - file: 'content/pages/components2.md'
-        label: 'Components2 Page'
-        name: 'components-page'
+        label: 'Entrepreneur Components2 Page'
+        name: 'entrepreneur-components-page'
         fields:
           - {
               label: Template,
@@ -265,6 +265,11 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
+          - { label: Section 1, name: section1, widget: markdown }
+          - { label: Section 2, name: section2, widget: markdown }
+          - { name: video, label: video, widget: file }
+          - { name: videoPoster, label: videoPoster, widget: image }
+          - { label: videoTitle, name: videoTitle, widget: string }          
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'
