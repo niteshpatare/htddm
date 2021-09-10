@@ -147,7 +147,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: MastermindPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'MastermindPage' }
+          - { label: Slug, name: slug, widget: hidden, default: 'mastermind' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
@@ -204,7 +204,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: EntrepreneurPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'EntrepreneurPage' }
+          - { label: Slug, name: slug, widget: hidden, default: 'entrepreneur' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
