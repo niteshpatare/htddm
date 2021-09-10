@@ -14,7 +14,7 @@
 
 .PageHeader--Title, .PageHeader--Subtitle {
   color: var(--primary);
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .PageHeader .container {
