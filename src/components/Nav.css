@@ -194,6 +194,10 @@
 .Nav--Links {
   justify-content: center;
 }
+.Nav .Logo {
+  z-index: 0;
+}
+
 
 }
 .Nav--Links {
