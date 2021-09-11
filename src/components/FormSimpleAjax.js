@@ -172,7 +172,7 @@ class Form extends React.Component {
             type="submit"
             value="Enquire"
             disabled={this.state.disabled}
-						id="submitBtn"
+					
           />
         </form>
       </Fragment>
