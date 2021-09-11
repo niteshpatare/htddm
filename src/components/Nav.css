@@ -191,6 +191,10 @@
 .Nav--Group.active .Nav--GroupParent:after {
     top: calc(50% - 1.4rem);
 }
+.Nav--Links {
+  justify-content: center;
+}
+
 }
 .Nav--Links {
   align-items: flex-start;
