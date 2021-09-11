@@ -1,3 +1,9 @@
+Created a fully functional website from a starter kit, had to rework many things, especially rework a lot for forms to get working on netlify and responsive navbar for full screen and mobile screens.
+
+**[https://howtododigitalmarketing.com/](https://howtododigitalmarketing.com/)
+
+
+OLd starter kit
 # Yellowcake
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
