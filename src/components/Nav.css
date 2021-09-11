@@ -202,3 +202,9 @@
     opacity: 0;
   }
 }
+
+.Nav .Logo {
+  height: 16rem;
+  width: 16rem;
+  margin-top: 4rem;
+}
