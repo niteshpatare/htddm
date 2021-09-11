@@ -53,8 +53,9 @@ gallery:
   - image: https://ucarecdn.com/ca6ce444-c993-4992-8244-7e44e88177fe/
     alt: Process
 meta:
-  description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  description: Build Your Business With Digital Marketing Tactics - No Matter What
+    Business You're In - HowToDoDigitalMarketing.com
+  title: Try How To Do Digital Marketing [dot] COM
 ---
 
 ```
