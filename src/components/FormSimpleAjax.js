@@ -159,6 +159,7 @@ class Form extends React.Component {
             className="g-recaptcha"
             data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"
           />
+					<div data-netlify-recaptcha="true" className=""></div>
 		  <p class="hidden" style={{ display: 'none' }}>
     		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label>
   		  </p>
