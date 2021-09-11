@@ -160,7 +160,7 @@ class Form extends React.Component {
             />
             <span>Message</span>
           </label>
-					<div data-netlify-recaptcha="true"></div>
+
 		  <p class="hidden" style={{ display: 'none' }}>
     		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label>
   		  </p>
