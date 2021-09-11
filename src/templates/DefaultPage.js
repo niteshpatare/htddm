@@ -19,15 +19,13 @@ export const DefaultPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
+    <script src="https://www.google.com/recaptcha/api.js" ></script>
     <section className="section">
       <div className="container">
         <Content source={body} />
         <SVGIcon src="/images/calendar.svg" />
       </div>
     </section>
-
-    <script src="https://www.google.com/recaptcha/api.js" ></script>
     <form id="myform" action="?" method="POST" data-netlify="true" data-netlify-recaptcha="true">
       <div class="g-recaptcha"  name="g-recaptcha-response" data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  data-callback="unHideButton"></div>
       <br/>
