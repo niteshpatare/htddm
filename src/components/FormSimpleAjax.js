@@ -11,6 +11,19 @@ function encode(data) {
 			.join('&')
 }
 
+  function unHideButton() {
+    if (grecaptcha.getResponse().length > 0) {
+      document.getElementById('submitBtn').disabled = false
+    }
+  }
+  document.addEventListener("DOMContentLoaded", () => {
+    if (typeof grecaptcha === "object") {
+      document.querySelector('.g-recaptcha').dataset.callback = "unHideButton"
+    } else {
+      console.log("Unable to add `data-callback` to grecaptcha as it doesn't exist.");
+    }
+  });
+
 class Form extends React.Component {
   static defaultProps = {
     name: 'contact',
@@ -167,12 +180,14 @@ class Form extends React.Component {
   		  </p>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
-					<div data-netlify-recaptcha="true"></div>
+					<script src="https://www.google.com/recaptcha/api.js" async defer ></script>
+					<div className="g-recaptcha" data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb" data-callback="unHideButton"></div>
           <input
             className="Button Form--SubmitButton"
             type="submit"
             value="Enquire"
             disabled={this.state.disabled}
+						id="submitBtn"
           />
         </form>
       </Fragment>
