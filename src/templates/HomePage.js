@@ -10,13 +10,17 @@ import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, section1,
-  video,
-  videoPoster,
-  videoTitle,
-  section2,
+export const HomePageTemplate = ({ 
+  title, 
+  subtitle, 
+  featuredImage, 
+  section1
+  section2
+  video
+  videoPoster
+  videoTitle
+  accordion
   body,
-  accordion,
   gallery
  }) => (
   <main className="Home">
@@ -31,13 +35,13 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, section1,
         <Content source={section1} />
       </div>
     </section>
-{/*}
+
     <section className="BackgroundVideo-section section">
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
     </section>
-*/}
+
     <section className="section">
       <div className="container">
         <Content source={section2} />
@@ -63,11 +67,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, section1,
         <Accordion items={accordion} />
       </div>
     </section>
-
-
-
-
-    
+     
   </main>
 )
 
@@ -94,6 +94,15 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        section1
+        section2
+        video
+        videoPoster
+        videoTitle
+        accordion {
+          title
+          description
+        }
       }
     }
   }
