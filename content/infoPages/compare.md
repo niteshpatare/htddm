@@ -1,8 +1,7 @@
 ---
 template: DefaultPage
 slug: compare
-title: Compare Plans Now. Stop Waiting. Start Building. Accomplish More While
-  Doing Less
+title: Compare Plans. Stop Waiting. Start Building. Accomplish More While Doing Less
 featuredImage: https://ucarecdn.com/24c371ad-cf6d-419a-a9b6-9084ff60a875/
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
