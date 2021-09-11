@@ -28,7 +28,7 @@ class Form extends React.Component {
   handleSubmit = e => {
     e.preventDefault()
     if (this.state.disabled) return
-
+debugger;
     const form = e.target
     const data = serialize(form)
     this.setState({ disabled: true })
