@@ -18,7 +18,13 @@ section1: >-
   # We Will Help You To
 
 
-  * Build lead driven website (if you already have on redesign of website).   *The Different Ways to Monetize Your Brand.*  How to Avoid Entrepreneurial Burnout.  *Keeping up with the competition.*  Helps in cutting down the operational costs.
+  * Build lead driven website (if you already have on redesign of website).   
+
+  * The Different Ways to Monetize Your Brand.*  How to Avoid Entrepreneurial Burnout.  
+
+  * Keeping up with the competition.
+
+  * Helps in cutting down the operational costs.
 video: https://ucarecdn.com/6f1f0bca-6d10-415a-b8f5-40c5535fc42c/
 videoPoster: https://ucarecdn.com/ef9c99fb-5270-4096-a95a-f2d1244234c5/
 videoTitle: A
