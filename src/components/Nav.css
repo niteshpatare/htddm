@@ -184,6 +184,17 @@
     font-size: 1.5rem;
     width: auto;
   }
+
+.Nav--Links {
+    align-items: flex-start;
+}
+
+.Nav--GroupLinks {
+    text-align: left;
+}
+.Nav--Group.active .Nav--GroupParent:after {
+    top: calc(50% - 1.4rem);
+}
 }
 
 @keyframes Nav--Link {
