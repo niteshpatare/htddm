@@ -59,7 +59,7 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
+          <script src="https://www.google.com/recaptcha/api.js"  async defer/>
         </Helmet>
         <form
           className="Form"
