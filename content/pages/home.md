@@ -1,9 +1,9 @@
 ---
 template: HomePage
-slug: ""
+slug: ''
 title: How To DO Digital Marketing
 featuredImage: https://ucarecdn.com/0b813136-0bbe-4b67-9e92-ef25ca94dad7/
-subtitle: "### Build your brand on online business space!"
+subtitle: '### Build your brand on online business space!'
 section1: >-
   # Discover What All The Buzz Is About!
 
@@ -47,11 +47,11 @@ section2: >-
   Create, Build, Grow & Achieve.
 accordion:
   - title: Unstoppable ENTREPRENEUR
-    content: Basic Digital Marketing Pack
+    description: Basic Digital Marketing Pack
   - title: Mastermind 360 DIGITAL MARKETING
-    content: Everything in Unstoppable Entrepreneur Pack and more
+    description: Everything in Unstoppable Entrepreneur Pack and more
   - title: Premium DIGITAL MARKETING
-    content: Everything in Mastermind 360 Digital Marketing and more
+    description: Everything in Mastermind 360 Digital Marketing and more
 gallery:
   - image: https://ucarecdn.com/727051f7-d237-40d9-832c-745b068b44fa/
     alt: Excavate
@@ -60,10 +60,12 @@ gallery:
   - image: https://ucarecdn.com/ca6ce444-c993-4992-8244-7e44e88177fe/
     alt: Process
 meta:
-  description: Build Your Business With Digital Marketing Tactics - No Matter What
+  description:
+    Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In - HowToDoDigitalMarketing.com
   title: Try How To Do Digital Marketing [dot] COM
 ---
+
 ```
 Stop Waiting. Start Building. No Matter What Business You're In. Try now.
 ```
