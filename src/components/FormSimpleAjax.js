@@ -20,6 +20,11 @@ class Form extends React.Component {
 		recaptchaRef:""
   }
 
+	constructor(props) {
+		super(props);
+		this.recaptchaRef = React.createRef();
+}
+
   handleSubmit = async e => {
     e.preventDefault()
     if (this.state.disabled) return
@@ -27,7 +32,8 @@ class Form extends React.Component {
     const form = e.target
 		const recaptchaRef = React.createRef();
 		this.state.recaptchaRef = recaptchaRef;
-		const recaptchaValue = recaptchaRef.current.getValue()
+		
+		const recaptchaValue = this.recaptchaRef.value;
     const data = serialize(form)
     this.setState({ disabled: true })
 		const options = {
@@ -166,7 +172,7 @@ class Form extends React.Component {
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
 					
-					<Recaptcha ref={recaptchaRef} sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  />
+					<Recaptcha ref="recaptchaRef" sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  />
           <input
             className="Button Form--SubmitButton"
             type="submit"
