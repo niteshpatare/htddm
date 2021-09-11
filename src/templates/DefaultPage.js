@@ -26,6 +26,14 @@ export const DefaultPageTemplate = ({
         <SVGIcon src="/images/calendar.svg" />
       </div>
     </section>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LfdwlwcAAAAAPdlWElUNNY9WXFttpA0hCt819jx"></div>
+      <br/>
+      <input type="submit" value="Test Recaptcha!" />
+    </form>
+
   </main>
 )
 
