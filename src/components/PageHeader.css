@@ -13,7 +13,13 @@
 }
 
 .PageHeader--Title, .PageHeader--Subtitle {
+  font-weight: 700;
+}
+.PageHeader--Title {
   color: var(--primary);
+}
+.PageHeader--Subtitle {
+  color: var(--third);
   font-weight: 700;
 }
 
