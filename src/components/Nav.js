@@ -113,7 +113,7 @@ export class Navigation extends Component {
             <NavLink to="/compare/">Compare</NavLink>
             {/*<NavLink to="/default/">Default</NavLink>*/}
             <NavLink to="/contact/">Contact</NavLink>
-            <NavLink to="http://blog.howtododigitalmarketing.com/">Blog</NavLink>
+            <NavLink to="http://blog.howtododigitalmarketing.com/" target="_blank" rel="noreferrer noopener">Blog</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
