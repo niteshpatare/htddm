@@ -52,6 +52,7 @@ class Form extends React.Component {
           alert: this.props.successMessage,
           disabled: false
         })
+				window.location.assign('/contact/')
       })
       .catch(err => {
         console.error(err)
