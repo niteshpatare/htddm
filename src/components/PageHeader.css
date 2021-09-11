@@ -19,7 +19,7 @@
   color: var(--primary);
 }
 .PageHeader--Subtitle {
-  color: var(--third);
+  color: var(--secondary);
   font-weight: 700;
 }
 
