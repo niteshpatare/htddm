@@ -14,14 +14,15 @@ export const HomePageTemplate = ({
   title, 
   subtitle, 
   featuredImage, 
-  section1
-  section2
-  video
-  videoPoster
-  videoTitle
-  accordion
-  body,
-  gallery
+  section1,
+  video,
+  videoPoster,
+  videoTitle,
+  section2,
+  accordion,
+  gallery,
+  body
+ 
  }) => (
   <main className="Home">
     <PageHeader
@@ -51,7 +52,6 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
         <Gallery images={gallery} />
       </div>
     </section>
@@ -91,15 +91,15 @@ export const pageQuery = graphql`
       ...Gallery
       html
       frontmatter {
-        title
-        template
+        title   
+        template    
         subtitle
         featuredImage
         section1
-        section2
         video
         videoPoster
         videoTitle
+        section2
         accordion {
           title
           description
