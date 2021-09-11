@@ -57,7 +57,7 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimpleAjax name="Contact" />
+          <FormSimpleAjax name="contact" />
         </div>
       </div>
     </section>
