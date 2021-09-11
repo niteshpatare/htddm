@@ -3,7 +3,7 @@ template: DefaultPage
 slug: compare
 title: Compare Plans Now. Stop Waiting. Start Building. Accomplish More While
   Doing Less
-featuredImage: https://ucarecdn.com/27f7658c-8573-417a-a0df-cf34b5f6ab6b/
+featuredImage: https://ucarecdn.com/24c371ad-cf6d-419a-a9b6-9084ff60a875/
 meta:
   description: Build Your Business With Digital Marketing Tactics - No Matter What
     Business You're In. HowToDoDigitalMarketing.com
