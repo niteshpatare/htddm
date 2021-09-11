@@ -11,8 +11,7 @@ class Form extends React.Component {
     subject: 'HTDDM Query', // optional subject of the notification email
     action: '/contact/',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
-    errorMessage:
-      'There is a problem, your message has not been sent, please try contacting us via email'
+    errorMessage: 'There is a problem, your message has not been sent, please try contacting us via email'
   }
 
   state = {
