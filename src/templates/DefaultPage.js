@@ -28,7 +28,7 @@ export const DefaultPageTemplate = ({
     </section>
 
     <script src="https://www.google.com/recaptcha/api.js" ></script>
-    <form id=myform action="?" method="POST"  data-netlify-recaptcha="true">
+    <form id="myform" action="?" method="POST"  data-netlify-recaptcha="true">
       <div class="g-recaptcha"  name="g-recaptcha-response" data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"></div>
       <br/>
       <div data-netlify-recaptcha="true"></div>
