@@ -67,7 +67,7 @@ export const HomePageTemplate = ({
         <Accordion items={accordion} />
       </div>
     </section>
-     
+
   </main>
 )
 
@@ -92,6 +92,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        template
         subtitle
         featuredImage
         section1
