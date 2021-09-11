@@ -46,12 +46,12 @@ section2: >-
 
   Create, Build, Grow & Achieve.
 accordion:
-  - title: UNSTOPPABLE ENTREPRENEUR
+  - title: Unstoppable ENTREPRENEUR
     content: Basic Digital Marketing Pack
-  - title: MASTERMIND 360 DIGITAL MARKETING
-    content: Everything in Unstoppable Entrepreneur Pack + more
-  - title: PREMIUM DIGITAL MARKETING
-    content: Everything in Mastermind 360 Digital Marketing + more
+  - title: Mastermind 360 DIGITAL MARKETING
+    content: Everything in Unstoppable Entrepreneur Pack and more
+  - title: Premium DIGITAL MARKETING
+    content: Everything in Mastermind 360 Digital Marketing and more
 gallery:
   - image: https://ucarecdn.com/727051f7-d237-40d9-832c-745b068b44fa/
     alt: Excavate
