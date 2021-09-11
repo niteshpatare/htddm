@@ -78,6 +78,7 @@ class Form extends React.Component {
           onSubmit={this.handleSubmit}
           data-netlify="true"
 				  data-netlify-honeypot="bot-field"
+					data-netlify-recaptcha="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -162,7 +163,7 @@ class Form extends React.Component {
           </label>
 
 		  <p class="hidden" style={{ display: 'none' }}>
-    		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label><div data-netlify-recaptcha="true"></div>
+    		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label>
   		  </p>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
