@@ -26,6 +26,7 @@ export const ContactPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
+    <script src="https://www.google.com/recaptcha/api.js" defer></script>
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
         <div>
