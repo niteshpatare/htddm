@@ -1,61 +1,30 @@
 ---
 template: HomePage
-slug: ""
-title: How To Do Digital Maraketing
-featuredImage: https://ucarecdn.com/4412a3ce-f9ad-46d9-83d4-3d3f027156f4/
-subtitle: "### Build your brand on online business space!"
-section1: >-
-  # Discover What All The Buzz Is About!
-
-  * Unstoppable Entrepreneur. * 360 Mastermind Digital Marketing Consulting.
-
-  # We Will Help You To
-
-  * Build lead driven website (if you already have on redesign of website).  * The Different Ways to Monetize Your Brand. * How to Avoid Entrepreneurial Burnout. * Keeping up with the competition. * Helps in cutting down the operational costs.
-video: https://ucarecdn.com/6f1f0bca-6d10-415a-b8f5-40c5535fc42c/
-videoPoster: https://ucarecdn.com/e686d6d5-7e3f-4eab-afa3-4f455414575a/
-videoTitle: Our Experiments ...
-section2: >-
-  ## The Benefits Of Using Our Pre-Build Marketing Packages:
-
-
-
-  * All of the marketing done at one place.
-
-
-  * No Need to hire Digital Marketing Team, no need of infrastructure ultimately brings your operational cost down.
-
-
-  * Speed up the delivery time.
-
-
-  * Bring together experts in all fields of marketing for quality.
-
-
-  * Help increase the outcome for higher results.
-
-
-
-  ## Unlimited Benefits. Unlimited Fun
-
-
-
-  Create, Build, Grow & Achieve.
-accordion:
-  - title: Invest In Digital Marketing Tactics
-    content: Content
-  - title: Hit Your Quarter Goals
-    content: Content
-gallery:
-  - image: https://ucarecdn.com/f11fc407-219e-4874-b938-01d01d7544c7/
-    alt: Excavate
-  - alt: Refine
-    image: https://ucarecdn.com/4fe4ece3-a066-49cb-98aa-68db31847244/
-  - image: https://ucarecdn.com/316db6d7-27c1-4b73-abf2-dc9aa0dbe139/
-    alt: Mine
+slug: ''
+title: How To DO Digital Marketing
+featuredImage: https://ucarecdn.com/f06d0b04-57cc-431e-a6cb-6ccf4d760a05/-/preview/-/grayscale/
+subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
 meta:
-  description: Build Your Business With Digital Marketing Tactics - No Matter What
-    Business You're In - HowToDoDigitalMarketing.com
-  title: Try How To Do Digital Marketing [dot] COM
+  description: This is a meta description.
+  title: The Ultimate Gatsby Starter
 ---
-Stop Waiting. Start Building. No Matter What Business You're In. Try now.
+
+Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightning fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+
+View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
+
+# Features
+
+- **[Gatsby](https://gatsbyjs.org)** static site generator
+- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
+- Dynamic menus and forms
+- **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
+- Fully responsive layout for mobile and widescreen browsing
+- Blog searching and paging functionality
+- Seamless image and content sliders
+
+## Get started
+
+View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
