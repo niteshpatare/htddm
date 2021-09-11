@@ -78,6 +78,7 @@ class Form extends React.Component {
 				  data-netlify-honeypot="bot-field"
 					data-netlify-recaptcha="true"
 					method="POST"
+					id="contact-form"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -166,6 +167,7 @@ class Form extends React.Component {
   		  </p>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
+					<div data-netlify-recaptcha="true"></div>
           <input
             className="Button Form--SubmitButton"
             type="submit"
