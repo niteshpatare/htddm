@@ -11,12 +11,12 @@ import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, section1,
-  section2,
   video,
   videoPoster,
   videoTitle,
-  accordion,
+  section2,
   body,
+  accordion,
   gallery
  }) => (
   <main className="Home">
