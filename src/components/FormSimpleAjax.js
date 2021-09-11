@@ -5,7 +5,7 @@ import { serialize } from 'dom-form-serializer'
 import Recaptcha from 'react-google-recaptcha'
 import './Form.css'
 
-const RECAPTCHA_KEY = process.env.NETLIFY_SITE_RECAPTCHA_KEY
+let RECAPTCHA_KEY = process.env.NETLIFY_SITE_RECAPTCHA_KEY
 if (!process.env.NETLIFY_SITE_RECAPTCHA_KEY) {
   RECAPTCHA_KEY = "6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"
 }
