@@ -1,6 +1,6 @@
 Created a fully functional website from a starter kit, had to rework many things, especially rework a lot for forms to get working on netlify and responsive navbar for full screen and mobile screens.
 
-- **[https://howtododigitalmarketing.com/](https://howtododigitalmarketing.com/)
+[https://howtododigitalmarketing.com/](https://howtododigitalmarketing.com/)
 
 
 OLd starter kit
