@@ -21,7 +21,7 @@ class Form extends React.Component {
   }
 
 	handleChange = (e) => {
-    setState({ ...this.state.names, [e.target.name]: e.target.value })
+    this.setState({ ...this.state.names, [e.target.name]: e.target.value })
   }
 	
 	encode = (data) => {
