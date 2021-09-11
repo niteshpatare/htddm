@@ -25,7 +25,7 @@ section1: >-
   * Helps in cutting down the operational costs.
 section2: |-
   ```
-  > Stop Waiting. Start Building. No Matter What Business You're In. Try now.
+  No Matter What Business You're In. Try now.
   ```
 video: https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/
 videoPoster: https://ucarecdn.com/8dd2dd8c-d24a-4b30-bfd7-4afc77b20fc8/
