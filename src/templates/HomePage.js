@@ -20,8 +20,8 @@ export const HomePageTemplate = ({
   videoTitle,
   section2,
   accordion,
-  gallery,
-  body
+  body,
+  gallery
  
  }) => (
   <main className="Home">
