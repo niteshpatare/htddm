@@ -185,10 +185,6 @@
     width: auto;
   }
 
-.Nav--Links {
-    align-items: flex-start;
-}
-
 .Nav--GroupLinks {
     text-align: left;
 }
@@ -196,7 +192,9 @@
     top: calc(50% - 1.4rem);
 }
 }
-
+.Nav--Links {
+  align-items: flex-start;
+}
 @keyframes Nav--Link {
   from {
     transform: translate(0rem, 1rem);
