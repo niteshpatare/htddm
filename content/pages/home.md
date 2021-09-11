@@ -13,7 +13,7 @@ section1: >-
   * 360 Mastermind Digital Marketing Consulting.
 
 
-  # We Will Help You To
+  # We Will Help You To:
 
 
   * Build lead driven website (if you already have on redesign of website).   
@@ -41,7 +41,7 @@ section2: >-
   * Help increase the outcome for higher results.
 
 
-  ## Unlimited Benefits. Unlimited Fun
+  ## Unlimited Benefits. Unlimited Fun.
 
 
   Create, Build, Grow & Achieve.
