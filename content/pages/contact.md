@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Us
-featuredImage: https://ucarecdn.com/4ca21514-1a90-4ecd-b4ef-1c8e7d7f88ca/
+featuredImage: https://ucarecdn.com/4ca21514-1a90-4ecd-b4ef-1c8e7d7f88ca/-/preview/-/grayscale/
 subtitle: "## Build your brand an online business space!"
 address: Pune - 412105, INDIA
 phone: "+## ##########"
