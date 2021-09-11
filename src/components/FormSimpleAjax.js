@@ -28,7 +28,7 @@ class Form extends React.Component {
   handleSubmit = async e => {
     e.preventDefault()
     if (this.state.disabled) return
-debugger;
+
     const form = e.target
     const data = serialize(form)
     this.setState({ disabled: true })
@@ -158,10 +158,7 @@ debugger;
             />
             <span>Message</span>
           </label>
-          <div
-            className="g-recaptcha"
-            data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"
-          />
+
 		  <p class="hidden" style={{ display: 'none' }}>
     		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label>
   		  </p>
