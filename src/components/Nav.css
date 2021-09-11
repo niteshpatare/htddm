@@ -200,6 +200,9 @@
 .Navlink{
   flex: 0 1 auto;
 }
+.Nav--Group {
+  flex: 0 1 auto;
+}
 @keyframes Nav--Link {
   from {
     transform: translate(0rem, 1rem);
