@@ -5,6 +5,12 @@ import { serialize } from 'dom-form-serializer'
 
 import './Form.css'
 
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
+
 class Form extends React.Component {
   static defaultProps = {
     name: 'contact',
@@ -24,12 +30,6 @@ class Form extends React.Component {
     this.setState({ ...this.state.names, [e.target.name]: e.target.value })
   }
 	
-	encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
-
   handleSubmit = e => {
     e.preventDefault();
     if (this.state.disabled) return;
@@ -39,7 +39,7 @@ class Form extends React.Component {
     this.setState({ disabled: true });
 
 		
-		{/*
+		{/* for plain html forms, not jsx ajax
 			const data = serialize(form);
     fetch(form.action + '?' + stringify(data), {
       method: 'POST',
