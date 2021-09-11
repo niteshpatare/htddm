@@ -58,8 +58,9 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" ></script>
+          
         </Helmet>
+		<script src="https://www.google.com/recaptcha/api.js" ></script>
         <form
           className="Form"
           name={name}
@@ -162,7 +163,7 @@ class Form extends React.Component {
             className="g-recaptcha"
             data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"
           />
-		  <p class="hidden">
+		  <p class="hidden" style={{ display: 'none' }}>
     		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label>
   		  </p>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
