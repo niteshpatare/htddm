@@ -166,7 +166,6 @@ class Form extends React.Component {
   		  </p>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
-					<script src="https://www.google.com/recaptcha/api.js" ></script>
 					<div className="g-recaptcha" data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb" data-callback="unHideButton"></div>
           <input
             className="Button Form--SubmitButton"
