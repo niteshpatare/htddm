@@ -6,6 +6,8 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import SVGIcon from '../components/SVGIcon'
 
+const recaptchaRef = React.createRef();
+const recaptchaValue = recaptchaRef.current.getValue()
 // Export Template for use in CMS preview
 export const DefaultPageTemplate = ({
   title,
@@ -27,7 +29,7 @@ export const DefaultPageTemplate = ({
       </div>
     </section>
     <form id="myform" action="?" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-      <div class="g-recaptcha"  name="g-recaptcha-response" data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  data-callback="unHideButton"></div>
+    <Recaptcha ref={recaptchaRef} sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  />
       <br/>
       <input type="submit" value="Test Recaptcha" />
     </form>
