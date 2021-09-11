@@ -25,17 +25,20 @@ class Form extends React.Component {
     disabled: false
   }
 
-  handleSubmit = e => {
+  handleSubmit = async e => {
     e.preventDefault()
     if (this.state.disabled) return
 debugger;
     const form = e.target
     const data = serialize(form)
     this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST',
-			headers: { "Content-Type": "application/x-www-form-urlencoded" }
-    })
+		const options = {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+			body: stringify(data)
+		}
+
+    fetch(form.action + '?', options)
       .then(res => {
         if (res.ok) {
           return res
