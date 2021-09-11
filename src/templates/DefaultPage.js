@@ -31,7 +31,7 @@ export const DefaultPageTemplate = ({
     <form action="?" method="POST">
       <div class="g-recaptcha" data-sitekey="6LfdwlwcAAAAAPdlWElUNNY9WXFttpA0hCt819jx"></div>
       <br/>
-      <input type="submit" value="Test Recaptcha!" />
+      <input type="submit" value="Test Recaptcha" />
     </form>
 
   </main>
