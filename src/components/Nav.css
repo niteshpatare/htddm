@@ -204,7 +204,9 @@
 }
 
 .Nav .Logo {
-  height: 16rem;
-  width: 16rem;
-  margin-top: 4rem;
+    height: 13rem;
+    width: 13rem;
+}
+.Nav--Container {
+    height: 6rem;
 }
