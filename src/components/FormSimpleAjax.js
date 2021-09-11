@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
-
+import Recaptcha from 'react-google-recaptcha'
 import './Form.css'
 
 function encode(data) {
@@ -10,6 +10,17 @@ function encode(data) {
 			.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 			.join('&')
 }
+
+const RECAPTCHA_KEY = process.env.APP_SITE_RECAPTCHA_KEY
+if (typeof RECAPTCHA_KEY === 'undefined') {
+  throw new Error(`
+  Env var GATSBY_APP_SITE_RECAPTCHA_KEY is undefined! 
+  You probably forget to set it in your Netlify build environment variables. 
+  Make sure to get a Recaptcha key at https://www.netlify.com/docs/form-handling/#custom-recaptcha-2-with-your-own-settings
+  Note this demo is specifically for Recaptcha v2
+  `)
+}
+
 class Form extends React.Component {
   static defaultProps = {
     name: 'contact',
@@ -23,18 +34,21 @@ class Form extends React.Component {
     alert: '',
     disabled: false
   }
+	
+	recaptchaRef = React.createRef()
 
   handleSubmit = async e => {
     e.preventDefault()
     if (this.state.disabled) return
 
     const form = e.target
+		const recaptchaValue = recaptchaRef.current.getValue()
     const data = serialize(form)
     this.setState({ disabled: true })
 		const options = {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-			body: stringify(data)
+			body: stringify(data), 'g-recaptcha-response': recaptchaValue,
 		}
 
     fetch(form.action, options)
@@ -166,7 +180,8 @@ class Form extends React.Component {
   		  </p>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
-					<div className="g-recaptcha" data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb" data-callback="unHideButton"></div>
+					
+					<Recaptcha ref={recaptchaRef} sitekey={RECAPTCHA_KEY} />
           <input
             className="Button Form--SubmitButton"
             type="submit"
