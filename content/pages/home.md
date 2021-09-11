@@ -1,9 +1,9 @@
 ---
 template: HomePage
-slug: ""
+slug: ''
 title: How To DO Digital Marketing
 featuredImage: https://ucarecdn.com/0b813136-0bbe-4b67-9e92-ef25ca94dad7/
-subtitle: "### Build your brand on online business space!"
+subtitle: '### Build your brand on online business space!'
 section1: >-
   # Discover What All The Buzz Is About!
 
@@ -45,10 +45,12 @@ section2: >-
 
 
   Create, Build, Grow & Achieve.
+gallery: []
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
 ---
+
 ```
 Stop Waiting. Start Building. No Matter What Business You're In. Try now.
 ```
@@ -59,13 +61,13 @@ View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-r
 
 # Features
 
-* **[Gatsby](https://gatsbyjs.org)** static site generator
-* **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-* Dynamic menus and forms
-* **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-* Fully responsive layout for mobile and widescreen browsing
-* Blog searching and paging functionality
-* Seamless image and content sliders
+- **[Gatsby](https://gatsbyjs.org)** static site generator
+- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
+- Dynamic menus and forms
+- **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
+- Fully responsive layout for mobile and widescreen browsing
+- Blog searching and paging functionality
+- Seamless image and content sliders
 
 ## Get started
 
