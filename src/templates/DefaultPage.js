@@ -28,7 +28,7 @@ export const DefaultPageTemplate = ({
         <SVGIcon src="/images/calendar.svg" />
       </div>
     </section>
-    <form id="myform" action="?" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+    <form action="?" method="POST" data-netlify="true" data-netlify-recaptcha="true">
     <Recaptcha ref={recaptchaRef} sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  />
       <br/>
       <input type="submit" value="Test Recaptcha" />
