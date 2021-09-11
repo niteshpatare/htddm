@@ -21,19 +21,21 @@ export const DefaultPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-    <script src="https://www.google.com/recaptcha/api.js" ></script>
+
     <section className="section">
       <div className="container">
         <Content source={body} />
         <SVGIcon src="/images/calendar.svg" />
       </div>
     </section>
-    <form action="?" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+ {/*  tested sample not required 
+    <script src="https://www.google.com/recaptcha/api.js" defer></script>
+ <form action="?" method="POST" data-netlify="true" data-netlify-recaptcha="true">
     <Recaptcha ref={recaptchaRef} sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  />
       <br/>
       <input type="submit" value="Test Recaptcha" />
     </form>
-
+*/}
   </main>
 )
 
