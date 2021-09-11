@@ -29,7 +29,7 @@ export const DefaultPageTemplate = ({
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LfdwlwcAAAAAPdlWElUNNY9WXFttpA0hCt819jx"></div>
+      <div class="g-recaptcha" data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"></div>
       <br/>
       <input type="submit" value="Test Recaptcha" />
     </form>
