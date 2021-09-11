@@ -38,7 +38,7 @@ debugger;
 			body: stringify(data)
 		}
 
-    fetch(form.action + '?', options)
+    fetch(form.action, options)
       .then(res => {
         if (res.ok) {
           return res
