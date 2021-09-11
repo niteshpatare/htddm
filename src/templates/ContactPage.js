@@ -58,7 +58,7 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimpleAjax name="contact" subject='HTDDM Query' action='/contact-success' />
+          <FormSimpleAjax name="contact" subject='HTDDM Query' action='/contact-success/' />
         </div>
       </div>
     </section>

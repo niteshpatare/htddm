@@ -5,10 +5,8 @@ import { serialize } from 'dom-form-serializer'
 import Recaptcha from 'react-google-recaptcha'
 import './Form.css'
 
-let RECAPTCHA_KEY = process.env.NETLIFY_SITE_RECAPTCHA_KEY
-if (!process.env.NETLIFY_SITE_RECAPTCHA_KEY) {
-  RECAPTCHA_KEY = "6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"
-}
+const RECAPTCHA_KEY = "6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb";
+
 if (typeof RECAPTCHA_KEY === 'undefined') {
   throw new Error(`Env var NETLIFY_SITE_RECAPTCHA_KEY is undefined! You probably forget to set it in your Netlify build environment variables. Make sure to get a Recaptcha key at https://www.netlify.com/docs/form-handling/#custom-recaptcha-2-with-your-own-settings Note this demo is specifically for Recaptcha v2 `)
 }
@@ -17,7 +15,7 @@ class Form extends React.Component {
   static defaultProps = {
     name: 'contact',
     subject: 'HTDDM Query', // optional subject of the notification email
-    action: '/contact/',
+    action: '/contact-success/',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage: 'There is a problem, your message has not been sent, please try contacting us via email'
   }
