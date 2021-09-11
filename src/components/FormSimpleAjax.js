@@ -10,20 +10,6 @@ function encode(data) {
 			.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
 			.join('&')
 }
-
-  function unHideButton() {
-    if (grecaptcha.getResponse().length > 0) {
-      document.getElementById('submitBtn').disabled = false
-    }
-  }
-  document.addEventListener("DOMContentLoaded", () => {
-    if (typeof grecaptcha === "object") {
-      document.querySelector('.g-recaptcha').dataset.callback = "unHideButton"
-    } else {
-      console.log("Unable to add `data-callback` to grecaptcha as it doesn't exist.");
-    }
-  });
-
 class Form extends React.Component {
   static defaultProps = {
     name: 'contact',
