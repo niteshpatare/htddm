@@ -5,12 +5,6 @@ import { serialize } from 'dom-form-serializer'
 import Recaptcha from 'react-google-recaptcha'
 import './Form.css'
 
-const RECAPTCHA_KEY = "6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb";
-
-if (typeof RECAPTCHA_KEY === 'undefined') {
-  throw new Error(`Env var NETLIFY_SITE_RECAPTCHA_KEY is undefined! You probably forget to set it in your Netlify build environment variables. Make sure to get a Recaptcha key at https://www.netlify.com/docs/form-handling/#custom-recaptcha-2-with-your-own-settings Note this demo is specifically for Recaptcha v2 `)
-}
-
 class Form extends React.Component {
   static defaultProps = {
     name: 'contact',
@@ -24,14 +18,13 @@ class Form extends React.Component {
     alert: '',
     disabled: false
   }
-	
-	recaptchaRef = React.createRef()
 
   handleSubmit = async e => {
     e.preventDefault()
     if (this.state.disabled) return
 
     const form = e.target
+		const recaptchaRef = React.createRef();
 		const recaptchaValue = recaptchaRef.current.getValue()
     const data = serialize(form)
     this.setState({ disabled: true })
@@ -171,7 +164,7 @@ class Form extends React.Component {
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
 					
-					<Recaptcha ref={recaptchaRef} sitekey={RECAPTCHA_KEY} />
+					<Recaptcha ref={recaptchaRef} sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"  />
           <input
             className="Button Form--SubmitButton"
             type="submit"
