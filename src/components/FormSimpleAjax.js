@@ -6,9 +6,9 @@ import { serialize } from 'dom-form-serializer'
 import './Form.css'
 
 function encode(data) {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
+	return Object.keys(data)
+			.map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+			.join('&')
 }
 
 class Form extends React.Component {
@@ -20,15 +20,9 @@ class Form extends React.Component {
     errorMessage: 'There is a problem, your message has not been sent, please try contacting us via email'
   }
 
-  state = {
-		names:{},
-    alert: '',
-    disabled: false
-  }
+	state = { names: {}, alert: "", disabled: false };
 
-	handleChange = (e) => {
-    this.setState({ ...this.state.names, [e.target.name]: e.target.value })
-  }
+	handleChange = e => this.setState({ ...this.state.names, [e.target.name]: e.target.value });
 	
   handleSubmit = e => {
     e.preventDefault();
