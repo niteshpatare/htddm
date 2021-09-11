@@ -9,9 +9,9 @@ categories:
   - category: Mastermind 360 Digital Marketing
 meta:
   canonicalLink: ""
-  description: test meta description
+  description: ""
   noindex: false
-  title: test meta title
+  title: Try How To Do Digital Marketing [dot] COM - Plans
 ---
 # Mastermind 360 Digital Marketing
 
