@@ -2,7 +2,7 @@
 template: EntrepreneurPage
 slug: entrepreneur
 title: Unstoppable Entrepreneur
-featuredImage: https://ucarecdn.com/cd9fdc1a-6a07-404d-a196-309005e23399/
+featuredImage: https://ucarecdn.com/cd9fdc1a-6a07-404d-a196-309005e23399/-/preview/-/grayscale/
 subtitle: "## Stop Waiting. Start Building."
 section1: >-
   ## So What’s Included?
