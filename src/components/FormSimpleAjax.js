@@ -58,7 +58,7 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+          <script src="https://www.google.com/recaptcha/api.js" ></script>
         </Helmet>
         <form
           className="Form"
@@ -67,6 +67,7 @@ class Form extends React.Component {
           onSubmit={this.handleSubmit}
           data-netlify="true"
           data-netlify-recaptcha="true"
+		  data-netlify-honeypot="bot-field"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -161,6 +162,9 @@ class Form extends React.Component {
             className="g-recaptcha"
             data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"
           />
+		  <p class="hidden">
+    		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label>
+  		  </p>
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
