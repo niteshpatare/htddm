@@ -10,7 +10,9 @@ section1: >-
   # Discover What All The Buzz Is About!
 
 
-  * Unstoppable Entrepreneur. * 360 Mastermind Digital Marketing Consulting.
+  * Unstoppable Entrepreneur. 
+
+  * 360 Mastermind Digital Marketing Consulting.
 
 
   # We Will Help You To
