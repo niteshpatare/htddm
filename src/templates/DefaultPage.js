@@ -1,13 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
+import Recaptcha from 'react-google-recaptcha'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import SVGIcon from '../components/SVGIcon'
 
 const recaptchaRef = React.createRef();
-const recaptchaValue = recaptchaRef.current.getValue()
+
 // Export Template for use in CMS preview
 export const DefaultPageTemplate = ({
   title,
