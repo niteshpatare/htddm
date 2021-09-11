@@ -9,8 +9,8 @@ excerpt: Social Media Pages Management on social platforms, social media
 categories:
   - category: Mastermind 360 Digital Marketing
 meta:
-  description: test meta description
-  title: test meta title
+  description: ""
+  title: Try How To Do Digital Marketing [dot] COM - Plans
 ---
 # Mastermind 360 Digital Marketing
 
