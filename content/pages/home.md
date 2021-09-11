@@ -5,8 +5,6 @@ title: How To DO Digital Marketing
 featuredImage: https://ucarecdn.com/0b813136-0bbe-4b67-9e92-ef25ca94dad7/
 subtitle: "### Build your brand on online business space!"
 section1: >-
-  
-
   # Discover What All The Buzz Is About!
 
 
@@ -27,7 +25,7 @@ section1: >-
   * Helps in cutting down the operational costs.
 video: https://ucarecdn.com/6f1f0bca-6d10-415a-b8f5-40c5535fc42c/
 videoPoster: https://ucarecdn.com/ef9c99fb-5270-4096-a95a-f2d1244234c5/
-videoTitle: A
+videoTitle: Our Experiment
 section2: >-
   ## The Benefits Of Using Our Pre-Build Marketing Packages:
 
