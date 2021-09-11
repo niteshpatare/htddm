@@ -16,7 +16,8 @@ class Form extends React.Component {
 
   state = {
     alert: '',
-    disabled: false
+    disabled: false,
+		recaptchaRef:""
   }
 
   handleSubmit = async e => {
@@ -25,6 +26,7 @@ class Form extends React.Component {
 
     const form = e.target
 		const recaptchaRef = React.createRef();
+		this.state.recaptchaRef = recaptchaRef;
 		const recaptchaValue = recaptchaRef.current.getValue()
     const data = serialize(form)
     this.setState({ disabled: true })
@@ -61,7 +63,7 @@ class Form extends React.Component {
 
   render() {
     const { name, subject, action } = this.props
-
+		const recaptchaRef = this.state.recaptchaRef;
     return (
       <Fragment>
 
