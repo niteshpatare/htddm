@@ -20,51 +20,38 @@ class Form extends React.Component {
     errorMessage: 'There is a problem, your message has not been sent, please try contacting us via email'
   }
 
-	state = { names: {}, alert: "", disabled: false };
+  state = {
+    alert: '',
+    disabled: false
+  }
 
-	handleChange = e => this.setState({ ...this.state.names, [e.target.name]: e.target.value });
-	
   handleSubmit = e => {
-    e.preventDefault();
-    if (this.state.disabled) return;
-	
-    const form = e.target;
-    
-    this.setState({ disabled: true });
+    e.preventDefault()
+    if (this.state.disabled) return
 
-		
-		{/* for plain html forms, not jsx ajax
-			const data = serialize(form);
+    const form = e.target
+    const data = serialize(form)
+    this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
       method: 'POST',
-	  	headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(data).toString()
-    })*/}
-
-		fetch("/", { 
-      method: 'POST',
-	  	headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-				"form-name": form.getAttribute("name"),
-				...this.state.names
-			})
-    }).then(res => {
+			headers: { "Content-Type": "application/x-www-form-urlencoded" }
+    })
+      .then(res => {
         if (res.ok) {
-          return res;
+          return res
         } else {
-          throw new Error('Network error');
+          throw new Error('Network error')
         }
       })
       .then(() => {
-				console.log('Form successfully submitted');
-        form.reset();
+        form.reset()
         this.setState({
           alert: this.props.successMessage,
           disabled: false
         })
       })
       .catch(err => {
-        console.error(err);
+        console.error(err)
         this.setState({
           disabled: false,
           alert: this.props.errorMessage
@@ -77,19 +64,15 @@ class Form extends React.Component {
 
     return (
       <Fragment>
-        <Helmet>
-          
-        </Helmet>
-		<script src="https://www.google.com/recaptcha/api.js" ></script>
+				<script src="https://www.google.com/recaptcha/api.js" ></script>
         <form
-					method="post"
           className="Form"
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
           data-netlify="true"
           data-netlify-recaptcha="true"
-		  		data-netlify-honeypot="bot-field"
+		  data-netlify-honeypot="bot-field"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -102,7 +85,6 @@ class Form extends React.Component {
                 placeholder="Firstname"
                 name="firstname"
                 required
-								onChange={this.handleChange}
               />
               <span>Firstname</span>
             </label>
@@ -113,7 +95,6 @@ class Form extends React.Component {
                 placeholder="Lastname"
                 name="lastname"
                 required
-								onChange={this.handleChange}
               />
               <span>Lastname</span>
             </label>
@@ -126,7 +107,6 @@ class Form extends React.Component {
                 name="gender"
                 value="male"
                 defaultChecked
-								onChange={this.handleChange}
               />
               <span>Male</span>
             </label>
@@ -136,7 +116,6 @@ class Form extends React.Component {
                 type="radio"
                 name="gender"
                 value="female"
-								onChange={this.handleChange}
               />
               <span>Female</span>
             </label>
@@ -148,7 +127,6 @@ class Form extends React.Component {
               placeholder="Email"
               name="emailAddress"
               required
-							onChange={this.handleChange}
             />
             <span>Email address</span>
           </label>
@@ -158,7 +136,6 @@ class Form extends React.Component {
               name="type"
               defaultValue="Type of Enquiry"
               required
-							onChange={this.handleChange}
             >
               <option disabled hidden>
               Type of Plan to more about
@@ -175,34 +152,23 @@ class Form extends React.Component {
               name="message"
               rows="10"
               required
-							onChange={this.handleChange}
             />
             <span>Message</span>
           </label>
-         {/* <label className="Form--Label Form-Checkbox">
-            <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
-              type="checkbox"
-							onChange={this.handleChange}
-            />
-            <span>Get news updates</span>
-          </label>*/}
           <div
             className="g-recaptcha"
             data-sitekey="6LfP01wcAAAAAJg6jgTdFFdl0DocIwYP8x_Jqrfb"
           />
 		  <p class="hidden" style={{ display: 'none' }}>
-    		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" onChange={this.handleChange} /></label>
+    		<label>Don’t fill this out if you’re human: <input type="text" name="bot-field" /></label>
   		  </p>
-          {!!subject && <input type="hidden" name="subject" value={subject} onChange={this.handleChange} />}
-          <input type="hidden" name="form-name" value={name} onChange={this.handleChange} />
+          {!!subject && <input type="hidden" name="subject" value={subject} />}
+          <input type="hidden" name="form-name" value={name} />
           <input
             className="Button Form--SubmitButton"
             type="submit"
             value="Enquire"
             disabled={this.state.disabled}
-						
           />
         </form>
       </Fragment>
