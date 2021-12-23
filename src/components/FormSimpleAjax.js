@@ -17,7 +17,7 @@ class Form extends React.Component {
   state = {
     alert: '',
     disabled: false,
-		//recaptchaRef:""
+recaptchaRef:""
   }
 
 	constructor(props) {
@@ -68,13 +68,10 @@ class Form extends React.Component {
   }
 
   render() {
-<<<<<<< Updated upstream
+
     const { name, subject, action } = this.props;
-		const recaptchaRef = this.state.recaptchaRef;
-=======
-    const { name, subject, action } = this.props
-		//const recaptchaRef = this.state.recaptchaRef;
->>>>>>> Stashed changes
+const recaptchaRef = this.state.recaptchaRef;
+
     return (
       <Fragment>
 
