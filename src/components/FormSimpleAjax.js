@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
+/*import Helmet from 'react-helmet'*/
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 import Recaptcha from 'react-google-recaptcha'
@@ -17,7 +17,7 @@ class Form extends React.Component {
   state = {
     alert: '',
     disabled: false,
-		recaptchaRef:""
+		//recaptchaRef:""
   }
 
 	constructor(props) {
@@ -68,8 +68,13 @@ class Form extends React.Component {
   }
 
   render() {
+<<<<<<< Updated upstream
     const { name, subject, action } = this.props;
 		const recaptchaRef = this.state.recaptchaRef;
+=======
+    const { name, subject, action } = this.props
+		//const recaptchaRef = this.state.recaptchaRef;
+>>>>>>> Stashed changes
     return (
       <Fragment>
 
